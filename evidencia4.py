@@ -30,10 +30,16 @@ class Smartphone:
 
 
     def __str__(self):
-        return (f"Smartphone {self.__marca} con {self.__bateria}% de bateria y "
-                f"{self.__almacenamiento - self.__almacenamiento_usado} GB de almacenamiento libre")
+        return f"Smartphone {self.__marca} con {self.__bateria}% de bateria y {self.__almacenamiento - self.__almacenamiento_usado} GB de almacenamiento libre"
 
+    def get_bateria(self):
+        return self.__bateria
 
+    def get_apps_abiertas(self):
+        return self.__apps_abiertas
+
+    def get_almacenamiento_usado(self):
+        return self.__almacenamiento_usado
 
 #My Smartphone1*
 mi_smartphone = Smartphone("Voltron X")
