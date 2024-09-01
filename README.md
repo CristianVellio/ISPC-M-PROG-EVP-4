@@ -11,7 +11,7 @@ Alumno: Cristian Vellio<br>
 Comision: 1<br>
 
 <h3>Instrucciones</h3>
-1. Selección y Diseño del Objeto:
+1. Selección y Diseño del Objeto:<br>
 ○ Elige un objeto de los dos propuestos.<br>
 ○ Define 3 comportamientos clave del objeto que involucren lógica de
 programación (no solo getters/setters).<br>
