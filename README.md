@@ -1,24 +1,32 @@
 <h1>Modulo Programador</h1>
 
-<h2>Evidencia de Aprendizaje 4: "Diseño y
-Desarrollo de Objetos"</h2>
+<h2>Evidencia de Aprendizaje 4: "Diseño y Desarrollo de Objetos"</h2>
 
 Docentes: Ivana Rojas Corsico; Martin Garlero<br>
 Fecha de entrega: 08 de septiembre 2024<br>
-Espacio curricular: Desarrollo de Software<br>
+Carrera: Desarrollo de Software<br>
 Cohorte: 2024<br>
 Alumno: Cristian Vellio<br>
 Comision: 1<br>
 
-<h3>Instrucciones</h3>
-1. Selección y Diseño del Objeto:<br>
+<h2>Instrucciones</h2>
+<h3>1. Selección y Diseño del Objeto:</h3>
+
 ○ Elige un objeto de los dos propuestos.<br>
 ○ Define 3 comportamientos clave del objeto que involucren lógica de
 programación (no solo getters/setters).<br>
 ○ Incluye al menos un método estándar de definición def__.<br>
 
-<h2>Smartphone</h2>
+<h2>📱 Smartphone</h2>
 Este proyecto implementa una clase Smartphone en Python que simula el comportamiento de un teléfono inteligente. La clase permite gestionar operaciones básicas como abrir y cerrar aplicaciones, instalar nuevas aplicaciones, y controlar el estado de la batería y el almacenamiento. Además, se hace uso de encapsulamiento para proteger los datos internos del objeto.
+
+Características
+Abrir y cerrar aplicaciones: Controla la apertura y cierre de aplicaciones y su impacto en la batería.
+Gestión de almacenamiento: Instala y desinstala aplicaciones gestionando el espacio de almacenamiento disponible.
+Encapsulación: Usa atributos privados para asegurar la integridad de los datos.
+Método __str__: Devuelve una representación en texto del estado del smartphone.
+
+
 
 <h3>2. Desarrollo guiado por pruebas (TDD):</h3>
 ○ Escribe primero las pruebas unitarias.<br>
@@ -27,6 +35,24 @@ Este proyecto implementa una clase Smartphone en Python que simula el comportami
 
 <h2>Testing</h2>
 Este proyecto incluye un conjunto de pruebas unitarias para asegurar que los métodos de la clase Smartphone funcionan correctamente. Las pruebas están implementadas usando el módulo unittest.
+
+<h2>Instalacion y uso</h2>
+
+1. Clona este repo.
+
+```bash
+git clone https://github.com/tu-usuario/smartphone-project.git
+cd smartphone-project
+```
+
+2. Ejecuta las pruebas:
+
+Para verificar que todo funcione correctamente, ejecuta las pruebas unitarias con:
+
+```python 
+py-m unittest test.py
+```
+
 
 <h3>3.Base de Datos</h3>
 
