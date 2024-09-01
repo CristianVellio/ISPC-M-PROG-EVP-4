@@ -1,5 +1,10 @@
-<h1>Modulo Programador</h1>
+<h1>Modulo Programador 💻</h1>
 
+<div>
+    <img align="right" src="https://github.com/user-attachments/assets/8f2d463f-9f02-450e-af11-4c4d9a99a7d3" alt="AdobeColor-Portfolio" width="120" height="60">
+<div>
+<br>
+  
 <h2>Evidencia de Aprendizaje 4: "Diseño y Desarrollo de Objetos"</h2>
 
 Docentes: Ivana Rojas Corsico; Martin Garlero<br>
@@ -33,7 +38,7 @@ Método __str__: Devuelve una representación en texto del estado del smartphone
 ○ Implementa la clase para que pase las pruebas.<br>
 ○ Refactoriza en caso de ser necesario.<br>
 
-<h2>Testing</h2>
+<h2>🔎 Testing 🐞</h2>
 Este proyecto incluye un conjunto de pruebas unitarias para asegurar que los métodos de la clase Smartphone funcionan correctamente. Las pruebas están implementadas usando el módulo unittest.
 
 <h2>Instalacion y uso</h2>
