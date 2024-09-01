@@ -35,7 +35,8 @@ corresponda.<br>
 ○ Crea 10 sentencias INSERT con datos de ejemplo.<br>
 ○ Escribe 5 consultas de tipo SELECT.<br>
 
+<h2>Link demo YT</h2>
+
 <h2>Stack utilizado</h2>
-Python
-<br>
-MySQL
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="20" height="20"/> Python
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="20" height="20"/> MySQL
