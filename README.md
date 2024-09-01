@@ -5,6 +5,7 @@ Desarrollo de Objetos"</h2>
 
 Docentes: Ivana Rojas Corsico; Martin Garlero<br>
 Fecha de entrega: 08 de septiembre 2024<br>
+Espacio curricular: Desarrollo de Software<br>
 Cohorte: 2024<br>
 Alumno: Cristian Vellio<br>
 Comision: 1<br>
