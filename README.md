@@ -1,9 +1,9 @@
 <h1>Modulo Programador 💻</h1>
-
+<br>
 <div>
     <img align="right" src="https://github.com/user-attachments/assets/8f2d463f-9f02-450e-af11-4c4d9a99a7d3" alt="AdobeColor-Portfolio" width="120" height="60">
 <div>
-<br>
+<br><br><br>
   
 <h2>Evidencia de Aprendizaje 4: "Diseño y Desarrollo de Objetos"</h2>
 
