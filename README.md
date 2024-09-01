@@ -7,6 +7,7 @@
   
 <h2>Evidencia de Aprendizaje 4: "Diseño y Desarrollo de Objetos"</h2>
 
+Instituto Superior Politecnico de Cordoba ISPC<br>
 Docentes: Ivana Rojas Corsico; Martin Garlero<br>
 Fecha de entrega: 08 de septiembre 2024<br>
 Carrera: Desarrollo de Software<br>
