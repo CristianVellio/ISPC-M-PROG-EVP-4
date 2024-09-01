@@ -7,7 +7,7 @@ Fecha de entrega: 08 de septiembre 2024<br>
 Carrera: Desarrollo de Software<br>
 Cohorte: 2024<br>
 Alumno: Cristian Vellio<br>
-Comision: 1<br>
+Comision: 2<br>
 
 <h2>Instrucciones</h2>
 <h3>1. Selección y Diseño del Objeto:</h3>
@@ -22,7 +22,7 @@ Este proyecto implementa una clase Smartphone en Python que simula el comportami
 
 Características
 Abrir y cerrar aplicaciones: Controla la apertura y cierre de aplicaciones y su impacto en la batería.
-Gestión de almacenamiento: Instala y desinstala aplicaciones gestionando el espacio de almacenamiento disponible.
+Gestión de almacenamiento: Instala y desinstala aplicaciones gestionando el espacio de almacenamiento disponible.<br>
 Encapsulación: Usa atributos privados para asegurar la integridad de los datos.
 Método __str__: Devuelve una representación en texto del estado del smartphone.
 
