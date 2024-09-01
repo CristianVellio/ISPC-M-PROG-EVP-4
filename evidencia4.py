@@ -29,8 +29,9 @@ class Smartphone:
             print("Almacenamiento insuficiente para instalar la aplicacion")
 
 
-def __str__(self):
-    return f"Smartphone {self.__marca} con {self.__bateria}% de bateria y {self.__almacenamiento - self.__almacenamiento_usado} GB de almacenamiento libre"
+    def __str__(self):
+        return (f"Smartphone {self.__marca} con {self.__bateria}% de bateria y "
+                f"{self.__almacenamiento - self.__almacenamiento_usado} GB de almacenamiento libre")
 
 
 
@@ -39,4 +40,5 @@ mi_smartphone = Smartphone("Voltron X")
 mi_smartphone.abrir_app(10)
 mi_smartphone.instalar_app(20)
 mi_smartphone.cerrar_app()
+
 print(mi_smartphone)
