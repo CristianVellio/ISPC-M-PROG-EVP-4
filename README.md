@@ -86,8 +86,8 @@ La sentencia SQL para crear la tabla `smartphones` es la siguiente:
 ```sql
 CREATE TABLE smartphones (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    marca VARCHAR(50) NOT NULL,
-    modelo VARCHAR(50) NOT NULL,
+    marca VARCHAR(80) NOT NULL,
+    modelo VARCHAR(80) NOT NULL,
     bateria INT CHECK (bateria BETWEEN 0 AND 100),
     almacenamiento_total INT NOT NULL,
     almacenamiento_usado INT NOT NULL CHECK (almacenamiento_usado >= 0),
