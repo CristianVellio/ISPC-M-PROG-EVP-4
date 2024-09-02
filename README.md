@@ -1,13 +1,19 @@
-<h1>Modulo Programador</h1>
-
+<h1>Modulo Programador 💻</h1>
+<br>
+<div>
+    <img align="right" src="https://github.com/user-attachments/assets/8f2d463f-9f02-450e-af11-4c4d9a99a7d3" alt="AdobeColor-Portfolio" width="80" height="60">
+<div>
+<br><br><br>
+  
 <h2>Evidencia de Aprendizaje 4: "Diseño y Desarrollo de Objetos"</h2>
 
+Instituto Superior Politecnico de Cordoba ISPC<br>
 Docentes: Ivana Rojas Corsico; Martin Garlero<br>
 Fecha de entrega: 08 de septiembre 2024<br>
 Carrera: Desarrollo de Software<br>
 Cohorte: 2024<br>
 Alumno: Cristian Vellio<br>
-Comision: 1<br>
+Comision: 2<br>
 
 <h2>Instrucciones</h2>
 <h3>1. Selección y Diseño del Objeto:</h3>
@@ -22,7 +28,7 @@ Este proyecto implementa una clase Smartphone en Python que simula el comportami
 
 Características
 Abrir y cerrar aplicaciones: Controla la apertura y cierre de aplicaciones y su impacto en la batería.
-Gestión de almacenamiento: Instala y desinstala aplicaciones gestionando el espacio de almacenamiento disponible.
+Gestión de almacenamiento: Instala y desinstala aplicaciones gestionando el espacio de almacenamiento disponible.<br>
 Encapsulación: Usa atributos privados para asegurar la integridad de los datos.
 Método __str__: Devuelve una representación en texto del estado del smartphone.
 
@@ -33,7 +39,7 @@ Método __str__: Devuelve una representación en texto del estado del smartphone
 ○ Implementa la clase para que pase las pruebas.<br>
 ○ Refactoriza en caso de ser necesario.<br>
 
-<h2>Testing</h2>
+<h2>🔎 Testing 🐞</h2>
 Este proyecto incluye un conjunto de pruebas unitarias para asegurar que los métodos de la clase Smartphone funcionan correctamente. Las pruebas están implementadas usando el módulo unittest.
 
 <h2>Instalacion y uso</h2>
@@ -62,10 +68,19 @@ corresponda.<br>
 ○ Crea 10 sentencias INSERT con datos de ejemplo.<br>
 ○ Escribe 5 consultas de tipo SELECT.<br>
 
-<h2>Link demo YT</h2>
+<h2>Link DEMO YT</h2>
+<br>
+<br>
+<br>
+<div align="center">
+  <a href="https://youtu.be/mIxR4VrStX4?feature=shared">Evidencia 4 Demo</a>
+</div>
+<br>
+<br>
+<br>
+
 
 ## **Stack Tecnológico**
-
-- **Back-End**:
+Back-End:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"  width="20" height="20"/> Python
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="20" height="20"/> MySQL
