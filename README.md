@@ -68,7 +68,7 @@ corresponda.<br>
 ○ Crea 10 sentencias INSERT con datos de ejemplo.<br>
 ○ Escribe 5 consultas de tipo SELECT.<br>
 
-<h2>Diseño de la Base de Datos</h2>
+<h2>🛢 Diseño de la Base de Datos 🛢</h2>
 La base de datos contiene una tabla llamada `smartphones` que refleja las características principales de un smartphone. La estructura de la tabla es la siguiente:
 
 - **id**: Identificador único de cada smartphone, configurado como clave primaria (PK).
