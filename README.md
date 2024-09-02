@@ -103,7 +103,7 @@ VALUES ('Voltron', 'X_20z223', 90, 128, 20, 1);
 INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
 VALUES ('Voltron', 'Y_15b64', 75, 256, 50, 2);
 
--- [Continúa con otros 8 ejemplos similares]
+-- [...]
 ```
 Y se presentan 5 consultas SELECT diseñadas para interactuar con la tabla smartphones:
 <div>
