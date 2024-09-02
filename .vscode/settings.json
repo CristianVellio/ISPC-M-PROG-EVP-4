@@ -12,7 +12,7 @@
       "name": "MYSQL LOCAL",
       "database": "evidencia4db",
       "username": "root",
-      "password": "Clazezadmin7/",
+      "password": "********",
       "connectionTimeout": 50
     }
   ]
