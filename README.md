@@ -68,6 +68,36 @@ corresponda.<br>
 ○ Crea 10 sentencias INSERT con datos de ejemplo.<br>
 ○ Escribe 5 consultas de tipo SELECT.<br>
 
+<h2>Diseño de la Base de Datos</h2>
+La base de datos contiene una tabla llamada `smartphones` que refleja las características principales de un smartphone. La estructura de la tabla es la siguiente:
+
+- **id**: Identificador único de cada smartphone, configurado como clave primaria (PK).
+- **marca**: Marca del smartphone, tipo de dato `VARCHAR`.
+- **modelo**: Modelo del smartphone, tipo de dato `VARCHAR`.
+- **bateria**: Nivel de batería del smartphone en porcentaje, tipo de dato `INT` con restricción de valores entre 0 y 100.
+- **almacenamiento_total**: Capacidad total de almacenamiento en GB, tipo de dato `INT`.
+- **almacenamiento_usado**: Espacio de almacenamiento usado en GB, tipo de dato `INT` con restricción para evitar valores negativos.
+- **apps_abiertas**: Número de aplicaciones abiertas, tipo de dato `INT` con restricción para evitar valores negativos.
+
+### **2. Sentencia `CREATE TABLE`**
+
+La sentencia SQL para crear la tabla `smartphones` es la siguiente:
+
+```sql
+CREATE TABLE smartphones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    marca VARCHAR(50) NOT NULL,
+    modelo VARCHAR(50) NOT NULL,
+    bateria INT CHECK (bateria BETWEEN 0 AND 100),
+    almacenamiento_total INT NOT NULL,
+    almacenamiento_usado INT NOT NULL CHECK (almacenamiento_usado >= 0),
+    apps_abiertas INT NOT NULL CHECK (apps_abiertas >= 0)
+);
+```
+
+Se insertaron 10 registros de ejemplo en la tabla smartphones para ilustrar el uso de la base de datos. Aquí algunos ejemplos
+
+
 <h2>Link DEMO YT</h2>
 <br>
 <br>
