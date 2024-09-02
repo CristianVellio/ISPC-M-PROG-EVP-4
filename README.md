@@ -47,8 +47,8 @@ Este proyecto incluye un conjunto de pruebas unitarias para asegurar que los mé
 1. Clona este repo.
 
 ```bash
-git clone https://github.com/tu-usuario/smartphone-project.git
-cd smartphone-project
+git clone https://github.com/CristianVellio/ISPC-M-PROG-EVP-4.git
+cd ISPC M PROG EVP 4
 ```
 
 2. Ejecuta las pruebas:
