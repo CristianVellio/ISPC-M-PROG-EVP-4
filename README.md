@@ -60,7 +60,7 @@ py-m unittest test.py
 ```
 
 
-<h3>3.🛢 Base de Datos 🛢️</h3>
+<h3>3.Base de Datos</h3>
 
 ○ Diseña una base de datos que represente tu objeto.<br>
 ○ Escribe la sentencia CREATE TABLE, definiendo PK, FK, etc, según
