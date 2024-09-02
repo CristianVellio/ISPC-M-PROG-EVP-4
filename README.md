@@ -139,7 +139,7 @@ Y se presentan 5 consultas SELECT diseñadas para interactuar con la tabla smart
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/54097fd9-6010-4ca2-ae38-8b3cebd59b95" alt="Query-All" width="500" height="200">
+    <img src="https://github.com/user-attachments/assets/2776bf60-38f4-4aad-a3ae-70f24a54badc" alt="Query-All" width="400" height="200">
 </div>
 
 <h2>Link DEMO YT</h2>
