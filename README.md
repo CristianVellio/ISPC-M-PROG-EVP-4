@@ -103,7 +103,29 @@ VALUES ('Voltron', 'X_20z223', 90, 128, 20, 1);
 INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
 VALUES ('Voltron', 'Y_15b64', 75, 256, 50, 2);
 
--- [...]
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Techno', 'Z1', 60, 64, 10, 0);
+
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Giga', 'Pro', 50, 128, 40, 3);
+
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Nexo', 'Prime', 30, 512, 200, 1);
+
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Maxus', 'Ultra', 85, 256, 30, 2);
+
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Kyrion', 'Edge', 20, 128, 120, 5);
+
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Core', 'Infinity', 95, 64, 5, 0);
+
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Zen', 'Mini', 40, 128, 60, 4);
+
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Pulse', 'Quantum', 70, 256, 80, 3);
 ```
 Y se presentan 5 consultas SELECT diseñadas para interactuar con la tabla smartphones:
 <div>
