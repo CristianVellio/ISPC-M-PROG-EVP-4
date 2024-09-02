@@ -94,9 +94,27 @@ CREATE TABLE smartphones (
     apps_abiertas INT NOT NULL CHECK (apps_abiertas >= 0)
 );
 ```
-
 Se insertaron 10 registros de ejemplo en la tabla smartphones para ilustrar el uso de la base de datos. Aquí algunos ejemplos
 
+```sql
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Voltron', 'X', 90, 128, 20, 1);
+
+INSERT INTO smartphones (marca, modelo, bateria, almacenamiento_total, almacenamiento_usado, apps_abiertas)
+VALUES ('Voltron', 'Y', 75, 256, 50, 2);
+
+-- [Continúa con otros 8 ejemplos similares]
+```
+Y se presentan 5 consultas SELECT diseñadas para interactuar con la tabla smartphones:
+<div>
+<img src="https://github.com/user-attachments/assets/1830ce48-ab90-4a06-b1cc-c47ed7f98e98" alt="Query-Select-1" width="250" height="100">
+<img src="https://github.com/user-attachments/assets/f1952143-aa96-4438-b38c-dd0602c1c3ad" alt="Query-Select-2" width="250" height="100">
+<img src="https://github.com/user-attachments/assets/81a261cf-7e06-49ff-808d-a4dd22fb130e" alt="Query-Select-3" width="250" height="100">
+<img src="https://github.com/user-attachments/assets/e8924854-0e62-40a2-bcfe-79cad2521c45" alt="Query-Select-4" width="250" height="100">
+<img src="https://github.com/user-attachments/assets/bdd674b7-9377-4518-b522-9bc9f6a331b6" alt="Query-Select-5" width="250" height="100">
+<img src="https://github.com/user-attachments/assets/54097fd9-6010-4ca2-ae38-8b3cebd59b95" alt="Query-All" width="500" height="200">
+
+</div>
 
 <h2>Link DEMO YT</h2>
 <br>
