@@ -10,23 +10,23 @@ class Smartphone:
         if self.__bateria >= consumo_bateria:
             self.__bateria -= consumo_bateria
             self.__apps_abiertas += 1
-            print(f"Aplicacion abierta, bateria restante: {self.__bateria}%")
+            return f"Aplicacion abierta, bateria restante: {self.__bateria}%"
         else:
-            print("Bateria insuficiente para abrir la aplicacion")
+            return "Bateria insuficiente para abrir la aplicacion"
 
     def cerrar_app(self):
         if self.__apps_abiertas > 0:
             self.__apps_abiertas = 0
-            print("Todas las aplicaciones han sido cerradas")
+            return "Todas las aplicaciones han sido cerradas"
         else:
-            print("No hay aplicaciones abiertas")
+            return "No hay aplicaciones abiertas"
 
     def instalar_app(self, tamano_app):
         if self.__almacenamiento_usado + tamano_app <= self.__almacenamiento:
             self.__almacenamiento_usado += tamano_app
-            print(f"Aplicacion instalada, almacenamiento usado: {self.__almacenamiento_usado} GB")
+            return f"Aplicacion instalada, almacenamiento usado: {self.__almacenamiento_usado} GB"
         else:
-            print("Almacenamiento insuficiente para instalar la aplicacion")
+            return "Almacenamiento insuficiente para instalar la aplicacion"
 
 
     def __str__(self):

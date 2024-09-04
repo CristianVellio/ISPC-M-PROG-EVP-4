@@ -5,7 +5,6 @@ class TestSmartphone(unittest.TestCase):
     def setUp(self):
         self.mi_smartphone = Smartphone("Voltron X")
 
-#se usa assert segun documentacion de python-
 
 #uso bateria
 
