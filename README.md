@@ -29,7 +29,7 @@ Este proyecto implementa una clase Smartphone en Python que simula el comportami
 Características
 Abrir y cerrar aplicaciones: Controla la apertura y cierre de aplicaciones y su impacto en la batería.
 Gestión de almacenamiento: Instala y desinstala aplicaciones gestionando el espacio de almacenamiento disponible.<br>
-Encapsulación: Usa atributos privados para asegurar la integridad de los datos.
+Encapsulación: Usa atributos privados para asegurar la integridad de los datos.<br>
 Método __str__: Devuelve una representación en texto del estado del smartphone.
 
 
