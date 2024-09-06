@@ -11,11 +11,11 @@ class TestSmartphone(unittest.TestCase):
             {"bateria_inicial": 10, "consumo": 20, "bateria_esperada": 10, "apps_abiertas_esperadas": 0},
             {"bateria_inicial": 0, "consumo": 5, "bateria_esperada": 0, "apps_abiertas_esperadas": 0},
         ]
-#Testeo Bateria
+
         for case in test_cases:
             with self.subTest(case=case):
                 self.mi_smartphone._Smartphone__bateria = case["bateria_inicial"]
-                self.mi_smartphone._Smartphone__apps_abiertas = 0  # Reset apps abiertas
+                self.mi_smartphone._Smartphone__apps_abiertas = 0
                 self.mi_smartphone.abrir_app(case["consumo"])
                 self.assertEqual(self.mi_smartphone.get_bateria(), case["bateria_esperada"])
                 self.assertEqual(self.mi_smartphone.get_apps_abiertas(), case["apps_abiertas_esperadas"])
@@ -26,7 +26,7 @@ class TestSmartphone(unittest.TestCase):
         self.mi_smartphone.cerrar_app()
         self.assertEqual(self.mi_smartphone.get_apps_abiertas(), 0)
 
-# Testeo cuando no hay apps abiertas
+
         self.assertEqual(self.mi_smartphone.cerrar_app(), "No hay aplicaciones abiertas")
         self.assertEqual(self.mi_smartphone.get_apps_abiertas(), 0)
 
